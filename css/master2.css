@@ -7,7 +7,7 @@ background-color:  hsl(0, 0%, 98%);
 .top-section
 {
   font-size: 30px;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 .heading
 {
@@ -22,7 +22,7 @@ background-color:  hsl(0, 0%, 98%);
 {
 margin:auto;
 width:550px;
-font-weight: 200;
+font-weight: 100;
 }
 
 /* supervisor class  */
@@ -67,7 +67,7 @@ font-weight: 200;
 {
   font-weight: 600;
   font-size: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .box-content
 {

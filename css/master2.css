@@ -1,0 +1,113 @@
+body
+{
+text-align: center;
+font-family: 'Poppins';
+background-color:  hsl(0, 0%, 98%);
+}
+.top-section
+{
+  font-size: 30px;
+  margin-top: 30px;
+}
+.heading
+{
+  font-weight: 200;
+}
+.bold-heading
+{
+  font-weight: 600;
+  margin:0 0 10px 0;
+}
+.heading-explain
+{
+margin:auto;
+width:550px;
+font-weight: 200;
+}
+
+/* supervisor class  */
+
+.middle-content
+{
+  display:flex;
+   margin:20px;
+   flex-wrap:wrap;
+
+    justify-content: center;
+ }
+.box
+{
+  width: 350px;
+  height: 230px;
+  text-align: left;
+  box-shadow: 5px 10px 20px  hsl(229, 6%, 66%);
+  margin:15px;
+  background-color: #fff;
+}
+.supervisor
+{
+ border-top: 5px solid cyan;
+}
+.team-builder
+{
+   border-top: 5px solid red;
+   position:relative;
+}
+.karma
+{
+   border-top: 5px solid orange;
+    position:relative;
+ }
+.calculator
+{
+   border-top: 5px solid blue;
+
+}
+.box-heading
+{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.box-content
+{
+  font-weight: 200;
+  font-size:15px;
+
+  line-height: 1.5;
+  padding:0 10px 0 5px;
+}
+.box-push
+{
+  transform:translateY(50%);
+}
+img
+{
+position:absolute;
+bottom:20px;
+right:20px;
+}
+
+
+  .attribution
+ {
+    font-size: 11px;
+    text-align: center;
+
+   }
+.attribution a
+{
+   color: hsl(228, 45%, 44%);
+ }
+ @media (max-width:1092px) {
+  .box-push
+   {
+     transform:translateY(0);
+   }
+ }
+@media (max-width:785px) {
+ .box-push
+  {
+    transform:translateY(0);
+  }
+}
